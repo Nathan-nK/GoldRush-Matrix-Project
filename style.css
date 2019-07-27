@@ -1,0 +1,66 @@
+.row {
+    display: flex;
+}
+.container{
+    background-color: #12a031;
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 20vw;
+}
+.square{
+    width: 10vw;
+    height: 15vh;
+    border: 3px solid black;
+    color: black;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.score {
+    display: flex;
+    margin-left: 20vw;
+}
+.player1 {
+    width: 26vw;
+    margin: 1px;
+    text-align: center;
+    background-color: grey;
+    border: 3px solid black;
+}
+.player2 {
+    width: 26vw;
+    margin: 1px;
+    text-align: center;
+    background-color: grey;
+    border: 3px solid black;
+
+}
+
+
+.block {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.coins{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gold;
+}
+
+
+.p1{
+    width: 5px;
+    height: 5px;
+    background-color: blue;
+}
+
+.p2{
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+}
